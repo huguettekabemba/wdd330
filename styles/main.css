@@ -1,0 +1,54 @@
+body {
+    background-color: #E2D6CA;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav ul li:first-child {
+    display: block;
+}
+
+nav ul li {
+    display: none;
+    border: 10px solid #649DA4;
+    padding: 18px;
+    margin: 10px;
+    background-color: #932D1D;
+    transition: all 0.8s;
+    font-size: 120%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #E2D6CA;
+}
+
+nav ul li:hover {
+    background-color: #649DA4;
+    color: #F2E5D5;
+}
+
+nav ul li a:visited {
+    text-decoration: none;
+}
+
+.display li {
+    display: block;
+}
+
+/* Colors */
+
+/*
+#E7A295 pink
+#33180B brown
+#932D1D red
+#649DA4 light blue
+#E2D6CA beige
+#4D7944 dark green
+*/
