@@ -1,5 +1,5 @@
 body {
-    background-color: #E2D6CA;
+    background-color: #a0cdf1;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -9,10 +9,10 @@ nav ul li:first-child {
 
 nav ul li {
     display: none;
-    border: 10px solid #649DA4;
+    border: 10px solid #256fdd;
     padding: 18px;
     margin: 10px;
-    background-color: #932D1D;
+    background-color: #055e23;
     transition: all 0.8s;
     font-size: 120%;
 }
@@ -26,12 +26,12 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #E2D6CA;
+    color: #ffffff;
 }
 
 nav ul li:hover {
-    background-color: #649DA4;
-    color: #F2E5D5;
+    background-color: #256fdd;
+    color: #ffffff;
 }
 
 nav ul li a:visited {

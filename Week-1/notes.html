@@ -31,40 +31,32 @@
         <h3 class="notes">Winter 2023</h3>
     </header>
     <main>
-        <p>In this weeks studies I learned about local storage. From what I understand,
-            local storage is data saved in the browser regardless of whether or not it
-            is closed. Someone can can save their data to a website, which is then stored
-            locally to their computer, and it will still be there after leaving the site
+        <p>In this weeks studies I learned about Node.js and NPM. Node.js and npm 
+            (short for Node Package Manager) are both important components in the 
+            development of JavaScript applications, but they serve different purposes.
         </p>
         <p>
-            An example I thought of is in my iPhone. I visit many websites for which I have
-            a profile. That means that I typically have a username and password in order to
-            access my profile with all of it's information. When logging into a site for the
-            first time, I save my name and password to my phones local storage, not the website
-            itself. That way, when logging back into my profile, my iPhone retrieves my username
-            and password from the local storage so that I can log in.
+            Node.js is a runtime environment that allows us to run JavaScript code outside 
+            of a web browser. It is built on the V8 JavaScript engine, which is also used by
+            Google Chrome. Node.js is often used for server-side applications, as it provides 
+            a way to write server-side code in JavaScript, making it possible to use a single 
+            language for both client-side and server-side development. Node.js includes a built-in 
+            package manager called npm, which allows us to easily install and manage dependencies
+            for our Node.js projects.
         </p>
         <p>
-            In the book I went through the example of a story editor. You can write a story, give
-            it a name and save it locally. Here are the functions that allowed me to use local storage.
+            npm, on the other hand, is a package manager specifically designed for Node.js. 
+            It allows us to install and manage packages (i.e., libraries, frameworks, and tools) 
+            that can be used in our Node.js projects. npm provides a central repository where we 
+            can find and download packages, and it also includes features for managing dependencies,
+            versioning, and publishing our own packages.
         </p>
         <p>
-            function loadStory(){
-            var storyName = document.getElementById("name_input").value
-            var storyHTML = localStorage.getItem("storyName")
-            document.getElementById("story_editor").value = storyHTML
-            }
-            function saveStory(){
-            var storyName = document.getElementById("name_input").value
-            var storyHTML = document.getElementById("story_editor").value
-            localStorage.setItem(storyName, storyHTML)
-            }
-            function displayStory(){
-            var storyHTML = document.getElementById("story_editor").value
-            document.getElementById("story_display").innerHTML = storyHTML
-            }
+            In summary, Node.js is a runtime environment that allows us to run JavaScript code outside 
+            of a web browser, while npm is a package manager specifically designed for Node.js that allows
+            us to easily install and manage packages for our Node.js projects.
         </p>
-        <p>Here is a link to my <a href="story_editor.html">Story Editor</a> </p>
+        
     </main>
     <footer> &copy; 2023 | Portfolio | Huguette Kabemba </footer>
 </body>
