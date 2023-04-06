@@ -7,16 +7,12 @@ h1 {
     color: beige;
 }
 
-nav ul li:first-child {
-    display: block;
-}
 
 nav ul li {
-    display: none;
     border: 2px solid #256fdd;
     border-radius: 5px;
     padding: 18px ;
-    margin: 10px 250px 10px 250px;
+    margin: 10px 400px 10px 400px;
     background-color: #ffffff;
     transition: all 0.8s;
     font-size: 120%;
